@@ -9,7 +9,6 @@ import os
 from openai import OpenAI
 import re
 
-st.balloons()
 load_dotenv()  # .env 파일을 읽어서 환경변수로 설정
 HOST = os.getenv("HOST")
 USER = os.getenv("USER")
@@ -56,7 +55,7 @@ def main():
     if user_input:
         
         client = OpenAI()
-        
+        st.balloons()
         sql = f"SELECT * FROM wsid_second.wsid"
         df = pd.read_sql(sql, con = engine)
         db = 'wsid_second'
@@ -107,7 +106,7 @@ def main():
         st.code(answer)
         st.write(answer_df)
         
-    st.markdown(
+        st.markdown(
     """
     <style>
     .image-container {
@@ -125,7 +124,7 @@ def main():
     </div>
     """,
     unsafe_allow_html=True
-    )    
+    )
         
 if __name__ == "__main__":
     main()
