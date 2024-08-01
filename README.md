@@ -1,4 +1,4 @@
-<h1 align="center">:house: 숙소 추천 사이트 :house:</h1>
+<h1 align="center">:house: Recommended Accommodation :house:</h1>
 <br>
 
 <h2 align="center">여행지 숙소 검색기</h2>
@@ -13,7 +13,7 @@ _데이터 출처 : 우리문화데이터 > 숙박 정보_
 <br>
 <br>
 
-## :firecracker: 트러블 슈팅
+## :firecracker: Troubleshooting
 
 ### 1. ‘제주도’, ‘경기도’와 같이 3글자인 지역명이 입력되는 경우 오류 발생
 - 원인: db에 ‘제주’, ‘경기’로 저장되어 있었기 때문에
@@ -32,7 +32,7 @@ _데이터 출처 : 우리문화데이터 > 숙박 정보_
 - 해결: USER → USERNAME으로 변경해서 사용
 <br>
 
-## :dart: 추가하고 싶은 기능
+## :dart: Features to add
 ### 1. Top 3를 뽑는 조건
 - 현재는 특정 조건없이 top 3만 뽑고 있음
 - sort 하는 조건들도 추가하고 싶음
